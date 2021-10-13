@@ -1,7 +1,7 @@
 <template>  
   <div id="app">
     <Header />
-    <Form @on-submit="handleSubmit" />
+    <Form :height="height" :inches="inches" :mass="mass" :system="system" />
     <Footer />
   </div>
 </template>
@@ -17,10 +17,12 @@ export default {
     Form,
     Footer
   },
-  methods: {
-    handleSubmit(height, mass) {
-      this.height = height,
-      this.mass = mass;
+  data() {
+    return {
+      height: null,
+      inches: null,
+      mass: null,
+      system: "imperial"
     }
   },
 }

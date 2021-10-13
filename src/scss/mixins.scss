@@ -9,3 +9,11 @@
   -moz-osx-font-smoothing: grayscale;
   color:$text;
 }
+@mixin bmiClass {
+  // text-indent:$size1;
+  color:$text;
+  // max-width:210px;
+  border-radius:$size1;
+  // line-height:28px;
+  transition: all 0.65s ease;
+}

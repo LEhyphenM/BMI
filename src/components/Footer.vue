@@ -23,7 +23,7 @@ export default {
     font-weight:400;
     letter-spacing:2.25px;
     text-transform:uppercase;
-    padding:16px;
+    padding:16px 0;
     text-align:center;
     margin:0 auto;
     width: 100%;
